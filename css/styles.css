@@ -1,0 +1,127 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+p {
+  color: #09009B;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.4rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #646FD4;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Register Button */
+.register-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-date {
+  padding: 3% 0;
+  font-size: 1.5rem;
+}
+
+/* Title Image */
+.heading-image {
+  width: 50%;
+}
+
+.title-image {
+  width: 40%;
+  filter: contrast(0) brightness(1000%);
+}
+
+/* Features Section */
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #DFF6FF;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FC997C;
+}
+
+/* FAQ Section */
+#faq {
+  background-color: #9BA3EB;
+}
+
+.faq-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* Location Section */
+#location {
+  padding: 100px;
+}
+
+.location-name {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.location-column {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+}
